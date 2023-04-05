@@ -28,6 +28,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 - https://docs.google.com/document/d/1QtVfz6sniA_ZDQT_dataERgEXGfbLXADHkN0Xjdgl70/edit?usp=sharing
 - https://www.w3schools.com/jsref/jsref_splice.asp
 - https://github.com/sylviaprabudy/note-taker
+- https://www.youtube.com/watch?v=wiFW3gQgfd8
+- https://dev.to/gulshanaggarwal/npm-packages-to-generate-unique-ids-for-your-next-project-1p3b
 
 
 ## License
