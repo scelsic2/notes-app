@@ -25,6 +25,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 - https://www.youtube.com/watch?v=SyiL0J80gDQ
+- https://docs.google.com/document/d/1QtVfz6sniA_ZDQT_dataERgEXGfbLXADHkN0Xjdgl70/edit?usp=sharing
+- https://www.w3schools.com/jsref/jsref_splice.asp
+- https://github.com/sylviaprabudy/note-taker
 
 
 ## License
