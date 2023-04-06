@@ -22,14 +22,13 @@ app.use("/", HTMLRoute)
 // require("./routes/api-routes.js")(app);
 // require("./routes/html-routes.js")(app);
 
-app.get("/", (req, res) => {
-    const pathToIndex = path.join(process.cwd(), "public/index.html");
-    res.sendFile(pathToIndex)
-})
+// app.get("/", (req, res) => {
+//     const pathToIndex = path.join(process.cwd(), "public/index.html");
+//     res.sendFile(pathToIndex)
+// })
 
-// should be app.post here below
-app.get("/api/notes", (req, res) => {
-    const pathToNotes = path.join(process.cwd(), "public/notes.html");
-    res.sendFile(pathToNotes)
-})
+// app.get("/notes", (req, res) => {
+//     const pathToNotes = path.join(process.cwd(), "public/notes.html");
+//     res.sendFile(pathToNotes)
+// })
 
