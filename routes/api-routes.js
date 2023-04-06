@@ -29,8 +29,8 @@ module.exports = (app) => {
     })
 
     // The user is posing data on the req body. I need to grab that data in a const. Next I need to read the db file of notes. Now that I'm reading that file, I need to parse it, so that I can get it from a string to an object I can use. I am using the method id to assign a unique id to the note.  Then I am grabbing the notes array and pushing in my new note.
-    const createNote = (req, res) => {
-    // app.post("/api/notes", (req, res) => {
+
+    app.post("/api/notes", (req, res) => {
         const newNote = req.body;
         fs.readFile("./db/db.json", "utf8", (err, data) => {
             if (err) throw err;
@@ -47,11 +47,11 @@ module.exports = (app) => {
             res.send(notesArray)
         })
     }
-    // )
+    )
 
     // By clicking delete, the user makes a request and the program looks at the params (id in this case) so that we can check if it's equal to or includes something. Then I loop through every item of the array to see if I can find an id that matches the id that the user hit delete on. When I find a match, I splice, which means to remove an item from the array.
-    const deleteNote = (req, res) => {
-    // app.delete("api/notes/:id", (req, res) => {
+
+    app.delete("api/notes/:id", (req, res) => {
         const deleteID = req.params.id;
         fs.readFile("./db/db.json", "utf8", (err, data) => {
             for (i = 0; i <notesArray.length; i++) {
@@ -67,11 +67,10 @@ module.exports = (app) => {
             }
         })
     }
-    // )
+    )
 
     // After a change has been made to the server data, in this case data that was changed by the user, I need to update the server by using PUT. The id is a unique value that I can grab the note by.
-    const putNote = (req, res) => {
-    // app.put("api/notes/:id", (req, res) => {
+    app.put("api/notes/:id", (req, res) => {
         const editID = req.params.id;
         fs.readFile("./db/db.json", "utf8", (err, data) => {
             if (err) throw err;
@@ -105,6 +104,6 @@ module.exports = (app) => {
 
         })
     }
-    // )
+    )
 
 }
