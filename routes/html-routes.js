@@ -1,16 +1,16 @@
 const express = require("express");
 const path = require("path");
-// const app = express();
+const router = express.Router();
 const fs = require("fs");
 
-module.exports = (app) => {
+// module.exports = (app) => {
 
-    app.get ("/", (req, res) => {
-        res.sendFile(path.join(process.cwd(), "../public/index.html"));
+    router.get ("/", (req, res) => {
+        res.sendFile(path.join(process.cwd(), "/public/index.html"));
     })
 
-    app.get ("/api/notes", (req, res) => {
-        res.sendFile(path.join(process.cwd(), "../public/notes.html"));
+    router.get ("/notes", (req, res) => {
+        res.sendFile(path.join(process.cwd(), "/public/notes.html"));
     })
-
-}
+    module.exports = router
+// }
