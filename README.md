@@ -2,26 +2,32 @@
 
 ## Description
 
-<!-- Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn? -->
+The Notes App is a quick and easy way to manage your notes.  You can write, save, recall, and delete your notes, as needed.
 
 ## Installation
 
-<!-- What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. -->
+N/A
 
-<!-- ## Usage
+## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Click "Get Started"
+![landing page](./public/assets/images/screenshot1.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Write your note title and text.
+![notes page, with notes stored on the left and a place to write a new note on the right](./public/assets/images/screenshot2.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ``` -->
+Click the save icon to save your new note.
+![a new note written by the user](./public/assets/images/screenshot3.png)
+
+Your new note is stored in the left pane.
+![new note stored in left pane](./public/assets/images/screenshot4.png)
+
+Click on a saved note to view it.
+![note recalled from stroage](./public/assets/images/screenshot5.png)
+
+Click the trash can item next to a note to delete it.
+![a note has been deleted](./public/assets/images/screenshot6.png)
+
 
 ## Credits
 - https://www.youtube.com/watch?v=SyiL0J80gDQ
@@ -30,6 +36,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 - https://github.com/sylviaprabudy/note-taker
 - https://www.youtube.com/watch?v=wiFW3gQgfd8
 - https://dev.to/gulshanaggarwal/npm-packages-to-generate-unique-ids-for-your-next-project-1p3b
+- https://www.youtube.com/watch?v=SccSCuHhOw0
+- https://www.npmjs.com/package/simple-random-number-generator
+- Tutoring 06APR2023
 
 
 ## License
